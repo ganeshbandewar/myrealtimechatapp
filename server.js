@@ -15,4 +15,5 @@ myio.on('connection', function(socket){
  console.log('it is conncected')
  socket.on('message', (message) => {
 socket.broadcast.emit('message', message)
+     console.log("message added to all");
     })})
