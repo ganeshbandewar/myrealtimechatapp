@@ -23,6 +23,7 @@ function reply(message) {
     takearrowdown()
 socket.emit('message', msg)
 }
+/* this is to insert the message in the textbox*/
 function insert(msg, type) {
     let newDiv = document.createElement('div')
     let classIMO = type
